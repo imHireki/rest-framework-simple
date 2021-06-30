@@ -6,9 +6,6 @@ from rest_framework.response import Response
 from rest_framework import status
 
 
-# TODO: TEST PK ARG
-
-
 class SnippetList(APIView):
     """
     List all code snippets, or create a new snippet.
